@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-'''
 aa=input("hahaha:")
 print("aa="+aa)
 bb="横：{}；竖：{}".format(aa,20)
@@ -21,22 +20,5 @@ if aa==1:
     print("true")
 else:
     print("false",aa)
-'''
 
-for i in range(1,10):
-    for j in range(1,10):
-        if i>=j:
-            print('%s×%s=%s'%(i,j,i*j),end=' ')
-    print()
 
-for i in range(1,10):
-    for j in range(1,10):
-        print('%s×%s=%s'%(i,j,i*j),end=' ')
-        if i<=j:
-            break
-    print()
-
-for i in range(1,10):
-    for j in range(1,i+1):
-        print('%s×%s=%s'%(i,j,i*j),end=' ')
-    print()
