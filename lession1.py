@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+'''
+aa=input("hahaha:")
+print("aa="+aa)
+bb="横：{}；竖：{}".format(aa,20)
+print("bb="+bb)
+cc="{:.2f}".format(7.3363)
+print("cc="+cc)
+dd="{:b}".format(100)
+ee="{:x}".format(100)
+ff="{:8}:{:8}".format(aa,cc)
+gg="{:>8}:{:>8}".format(aa,cc)
+print("dd:",dd,";ee:",ee,";ff:",ff,";gg:",gg)
+print("="*20)
+#注释111
+a=b=c=1
+d,e,f=1,2,"demo"
+print("a:",a,"b:",b,"c:",c,"d:",d,"e:",e,"f:",f)
+
+if aa==1:
+    print("true")
+else:
+    print("false",aa)
+'''
+
+for i in range(1,10):
+    for j in range(1,10):
+        if i>=j:
+            print('%s×%s=%s'%(i,j,i*j),end=' ')
+    print()
+
+for i in range(1,10):
+    for j in range(1,10):
+        print('%s×%s=%s'%(i,j,i*j),end=' ')
+        if i<=j:
+            break
+    print()
+
+for i in range(1,10):
+    for j in range(1,i+1):
+        print('%s×%s=%s'%(i,j,i*j),end=' ')
+    print()
