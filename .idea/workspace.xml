@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f58c59b-a9a9-4050-a65d-df3451fc3f1b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lession3.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lession2.py" afterPath="$PROJECT_DIR$/lession2.py" />
-    </list>
+    <list default="true" id="5f58c59b-a9a9-4050-a65d-df3451fc3f1b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +95,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="23" />
+    <option name="x" value="148" />
+    <option name="y" value="349" />
     <option name="width" value="1219" />
     <option name="height" value="737" />
   </component>
@@ -241,7 +237,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1219" height="737" extended-state="0" />
+    <frame x="148" y="349" width="1219" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
