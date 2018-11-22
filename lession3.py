@@ -64,7 +64,7 @@ while 1 >= 0 :
         age=input("请输入学员年龄：")
         age=ag(age)
         classid=input("请输入学员班级号：")
-        stuu={'sid':str(len(stu)+1),'name':name,'age':age,'classid':classid}
+        stuu={'sid':str(int(stu[len(stu)-1].get('sid'))+1),'name':name,'age':age,'classid':classid}
         stu.append(stuu)
         j = input("学员信息添加成功，按回车键继续：")
         df(j)
